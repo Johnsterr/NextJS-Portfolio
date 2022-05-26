@@ -1,4 +1,4 @@
-export default {
+export const defaultStyles = {
   colors: {
     white: "#ffffff",
     black: "#000000",
