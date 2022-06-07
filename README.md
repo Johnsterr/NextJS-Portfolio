@@ -1,9 +1,19 @@
-# Персональный сайт-портфолио
+# NextJS Simple Starter
 
-Ваше портфолио - это ваше резюме и визитная карточка.
+Lightweight starter for development
 
-Сайт использует технологию React и NextJS.
+## Starter include:
 
-Запуск проекта:
+- Next-themes
+- TailwindCSS
+- Heroicons (React)
 
-- выполнить команду `npm i && npm start`
+## How to use:
+
+Clone into the current folder and remove all unnecessary (one command):
+
+<pre>git clone https://github.com/Johnsterr/nextjs-simple-starter.git .; rm -rf readme.md .git</pre>
+
+- Clone or <a href="https://github.com/Johnsterr/nextjs-simple-starter/archive/refs/heads/master.zip">Download</a> <strong>NextJS Simple Starter</strong> from GitHub
+- Install Node Modules: `npm i`
+- Run dev: `npm run dev`
