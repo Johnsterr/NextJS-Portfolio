@@ -1,19 +1,13 @@
-# NextJS Simple Starter
+# Персональный сайт-портфолио
 
-Lightweight starter for development
+Сайт использует технологию NextJS.
 
-## Starter include:
+## Особенности проекта:
 
-- Next-themes
-- TailwindCSS
-- Heroicons (React)
+- поддержка тем (next-themes);
+- стилизация на TailwindCSS;
+- иконки представлены Heroicons набором;
 
-## How to use:
+Запуск проекта:
 
-Clone into the current folder and remove all unnecessary (one command):
-
-<pre>git clone https://github.com/Johnsterr/nextjs-simple-starter.git .; rm -rf readme.md .git</pre>
-
-- Clone or <a href="https://github.com/Johnsterr/nextjs-simple-starter/archive/refs/heads/master.zip">Download</a> <strong>NextJS Simple Starter</strong> from GitHub
-- Install Node Modules: `npm i`
-- Run dev: `npm run dev`
+- выполнить команду `npm i && npm run dev`
