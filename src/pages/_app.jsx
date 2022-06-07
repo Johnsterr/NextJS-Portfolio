@@ -1,11 +1,13 @@
+import { ThemeProvider } from "next-themes";
 import Head from "next/head";
-import ThemeProvider from "../theme/ThemeProvider.jsx";
+import "../styles/globals.css";
 
-const App = function ({ Component, pageProps }) {
+const PortfolioApp = function ({ Component, pageProps }) {
   return (
     <>
-      <ThemeProvider>
+      <ThemeProvider attribute="class" enableSystem="true" defaultTheme="dark">
         <Head>
+          <title>NextJS Simple Starter</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
         <Component {...pageProps} />
@@ -14,4 +16,4 @@ const App = function ({ Component, pageProps }) {
   );
 };
 
-export default App;
+export default PortfolioApp;
