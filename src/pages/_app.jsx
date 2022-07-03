@@ -3,7 +3,9 @@ import Head from "next/head";
 import "../styles/globals.css";
 
 const PortfolioApp = function ({ Component, pageProps }) {
-  return (
+  const getLayout = Component.getLayout || ((page) => page);
+
+  return getLayout(
     <>
       <ThemeProvider attribute="class" enableSystem="true" defaultTheme="dark">
         <Head>
